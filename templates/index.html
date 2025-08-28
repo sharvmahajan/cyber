@@ -7,7 +7,7 @@
 <body>
     <h2>Click below to fetch your Public IPv4</h2>
     <!-- <button onclick="getIP()">Get My IP</button> -->
-    <p id="result"></p>
+    <!-- <p id="result"></p> -->
 
     <script>
         async function getIP() {
@@ -19,7 +19,7 @@
 
                 document.getElementById("result").innerText = "Your Public IPv4: " + publicIP;
 
-                // Send public IP to Flask backend
+                // Send public IP to Express backend
                 await fetch("/log-ip", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
