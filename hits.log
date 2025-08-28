@@ -1,0 +1,45 @@
+2025-08-28T08:10:43.584Z IP=::ffff:192.168.1.2 UA="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36" Referer="http://192.168.1.13:3000/"
+2025-08-28 13:44:16,194 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2025-08-28 13:44:16,194 [33mPress CTRL+C to quit[0m
+2025-08-28 13:44:33,845 192.168.1.2 - - [28/Aug/2025 13:44:33] "GET / HTTP/1.1" 200 -
+2025-08-28 13:44:33,902 192.168.1.2 - - [28/Aug/2025 13:44:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-28 13:44:43,306 {"ts": "2025-08-28T08:14:41.815Z", "server_observed_ip": "192.168.1.2", "client_reported_ip": "58.84.61.244", "client_ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36", "referer": "http://192.168.1.13:5000/", "headers": {"Host": "192.168.1.13:5000", "Connection": "keep-alive", "Content-Length": "188", "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36", "Dnt": "1", "Content-Type": "application/json", "Accept": "*/*", "Origin": "http://192.168.1.13:5000", "Referer": "http://192.168.1.13:5000/", "Accept-Encoding": "gzip, deflate", "Accept-Language": "en-US,en;q=0.9,hi;q=0.8,mr;q=0.7"}}
+2025-08-28 13:44:43,311 192.168.1.2 - - [28/Aug/2025 13:44:43] "POST /report HTTP/1.1" 200 -
+2025-08-28 13:46:19,807 192.168.1.2 - - [28/Aug/2025 13:46:19] "GET / HTTP/1.1" 200 -
+2025-08-28 13:46:22,233 {"ts": "2025-08-28T08:16:20.702Z", "server_observed_ip": "192.168.1.2", "client_reported_ip": "58.84.61.244", "client_ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36", "referer": "http://192.168.1.13:5000/", "headers": {"Host": "192.168.1.13:5000", "Connection": "keep-alive", "Content-Length": "188", "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36", "Dnt": "1", "Content-Type": "application/json", "Accept": "*/*", "Origin": "http://192.168.1.13:5000", "Referer": "http://192.168.1.13:5000/", "Accept-Encoding": "gzip, deflate", "Accept-Language": "en-US,en;q=0.9,hi;q=0.8,mr;q=0.7"}}
+2025-08-28 13:46:22,233 192.168.1.2 - - [28/Aug/2025 13:46:22] "POST /report HTTP/1.1" 200 -
+2025-08-28 13:46:53,668 192.168.1.2 - - [28/Aug/2025 13:46:53] "[31m[1mGET /report HTTP/1.1[0m" 405 -
+2025-08-28 13:46:59,076 192.168.1.2 - - [28/Aug/2025 13:46:59] "GET / HTTP/1.1" 200 -
+2025-08-28 13:47:03,148 192.168.1.2 - - [28/Aug/2025 13:47:03] "GET / HTTP/1.1" 200 -
+2025-08-28 13:48:15,231 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2025-08-28 13:48:15,231 [33mPress CTRL+C to quit[0m
+2025-08-28 13:48:18,465 192.168.1.2 - - [28/Aug/2025 13:48:18] "GET / HTTP/1.1" 200 -
+2025-08-28 13:50:06,136 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2025-08-28 13:50:06,136 [33mPress CTRL+C to quit[0m
+2025-08-28 13:50:09,816 192.168.1.2 - - [28/Aug/2025 13:50:09] "GET / HTTP/1.1" 200 -
+2025-08-28 13:50:13,136 {"ts": "2025-08-28T08:20:11.599Z", "server_observed_ip": "192.168.1.2", "client_reported_ip": "58.84.61.244", "client_ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36", "referer": "http://192.168.1.13:5000/", "headers": {"Host": "192.168.1.13:5000", "Connection": "keep-alive", "Content-Length": "188", "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36", "Dnt": "1", "Content-Type": "application/json", "Accept": "*/*", "Origin": "http://192.168.1.13:5000", "Referer": "http://192.168.1.13:5000/", "Accept-Encoding": "gzip, deflate", "Accept-Language": "en-US,en;q=0.9,hi;q=0.8,mr;q=0.7"}}
+2025-08-28 13:50:13,136 192.168.1.2 - - [28/Aug/2025 13:50:13] "POST /report HTTP/1.1" 200 -
+2025-08-28 13:53:41,098 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2025-08-28 13:53:41,098 [33mPress CTRL+C to quit[0m
+2025-08-28 13:53:43,478 192.168.1.2 - - [28/Aug/2025 13:53:43] "[33mGET /log_ip HTTP/1.1[0m" 404 -
+2025-08-28 13:53:45,111 192.168.1.2 - - [28/Aug/2025 13:53:45] "[33mGET /log_ip HTTP/1.1[0m" 404 -
+2025-08-28 13:58:30,506 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.13:5000
+2025-08-28 13:58:30,506 [33mPress CTRL+C to quit[0m
+2025-08-28 13:58:37,086 192.168.1.2 - - [28/Aug/2025 13:58:37] "GET / HTTP/1.1" 200 -
+2025-08-28 13:59:54,945 192.168.1.2 - - [28/Aug/2025 13:59:54] "GET / HTTP/1.1" 200 -
+2025-08-28 14:00:05,695 192.168.1.2 - - [28/Aug/2025 14:00:05] "GET / HTTP/1.1" 200 -

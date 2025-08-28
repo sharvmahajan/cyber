@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IP Logger</title>
+</head>
+<body>
+    <h2>Click below to fetch your Public IPv4</h2>
+    <!-- <button onclick="getIP()">Get My IP</button> -->
+    <p id="result"></p>
+
+    <script>
+        async function getIP() {
+            try {
+                // Fetch public IPv4 using ipify
+                const response = await fetch("https://api.ipify.org?format=json");
+                const data = await response.json();
+                const publicIP = data.ip;
+
+                document.getElementById("result").innerText = "Your Public IPv4: " + publicIP;
+
+                // Send public IP to Flask backend
+                await fetch("/log-ip", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ public_ip: publicIP })
+                });
+
+            } catch (error) {
+                console.error("Error fetching IP:", error);
+                document.getElementById("result").innerText = "Failed to fetch IP!";
+            }
+        }
+        getIP();
+    </script>
+</body>
+</html>
